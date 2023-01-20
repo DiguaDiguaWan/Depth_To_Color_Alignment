@@ -10,7 +10,8 @@ D2C::D2C(std::string extrinsics_path, std::string intrinsics_path) {
     {
         extrinsics["R"] >> R;
         extrinsics["T"] >> T;
-        R = R.inv();
+        //if you using opencv calibrator , The R Matrix need be change.
+        //R = R.inv();
         extrinsics.release();
     }
 
