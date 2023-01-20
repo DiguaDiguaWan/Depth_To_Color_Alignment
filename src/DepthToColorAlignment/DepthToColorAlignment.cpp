@@ -29,6 +29,7 @@ D2C::D2C(std::string extrinsics_path, std::string intrinsics_path) {
 
 
 
+// phw's feat
 // qyk's feat
 
 void D2C::D2C_remap(cv::Mat &inputImage, cv::Mat &outputImage,int type) {
